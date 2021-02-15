@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.menu i{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 54px;
+    font-size: 30px;
+}
+.menu .logo {
+    width: 85px;
+    margin-left: 480px;
+    margin-bottom: 6px;
+}
+.menu .bar {
+    width: 28px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+@media (max-width: 400px) { 
+     .menu i {
+         width: 100px;
+     }
+}
+@media (max-width: 400px) { 
+    .menu .logo {
+       margin-bottom: 4px;
+       margin-left: 76px;
+       width: 66px;
+    }
+}
+@media (max-width: 400px) { 
+    .menu .bar {
+        margin-left: 82px;
+        margin-bottom: 4px;
+    }
+}
+
+
+
+.btn a {
+    display: flex;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 400px) {
+    .btn a {
+    font-size: 9px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 45px;
+    }
+}
+
+#content .head1 {
+    color: blue;
+    margin-left: 206px;
+    margin-top: -406px;
+    font-size: 35px;
+}
+#content .head2 {
+    color: black;
+    margin-left: 204px;
+   margin-top: -8px;
+}
+#content .para {
+    padding: 25px 430px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    margin-left: -228px;
+    font-size: 18px;
+}
+@media (max-width: 400px) {
+    #content .head1 {
+        margin-top: -271px;
+        margin-left: 121px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    #content .head2 {
+        margin-left: 119px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    #content .para {
+        padding: 86px;
+        margin-top: -73px;
+        margin-left: 33px;
+    }
+}
+
+#content i {
+    color: black;
+    width: 300px;
+margin-left: 203px;
+padding: 0px -80px;
+cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    #content i {
+        margin-left: 128px;
+        margin-top: 8px;
+    }
+}
+ .content1  {
+    display: flex;
+    padding: 1px 100px;
+    font-size: 30px;
+    cursor: pointer;
+ }
+ @media (max-width: 400px) {
+     .content1 {
+    margin-left: -187px;
+font-size: 9px;
+margin-top: -35px;
+     }
+ }
+ .content1 .t{
+     color: lightgray;
+     padding: 0px 30px;
+     margin-left: 80px;
+ }
+ .content1 .th{
+    color: lightgray;
+    padding: 0px 30px;
+    margin-left: -17px;
+}
+
+.content1 .f{
+    color: gray;
+    padding: 0px 30px;
+    margin-left: -12px;
+}
+
+.content1 .fo{
+    color: black;
+    padding: 0px 30px;
+    margin-left: -12px;
+}
+
+.content1 .fou{
+    color: gray;
+    padding: 0px 30px;
+    margin-left: -12px;
+}
+
+.content1 .four{
+    color: lightgray;
+    padding: 0px 30px;
+    margin-left: -12px;
+}
+.content1 .four1{
+    color: lightgray;
+    padding: 0px 30px;
+    margin-left: -12px;
+}
+#content button{
+    margin-left: 210px;
+    margin-top: 10px;
+}
+@media (max-width: 400px) {
+    #content button {
+        margin-left: 27px;
+        margin-top: 44px;
+        width: 100px;
+    }
+}
+ul li{
+    list-style: none;
+}
+li .shoe1 {
+    float: right;
+    width: 250px;
+    margin-top: -150px;
+    margin-right: 50px;
+    z-index: 1;
+    animation: ul 10s linear infinite;
+}
+li .shoe1:hover {
+  animation: none;
+}
+@keyframes ul {
+    50% {
+    transform: rotate(360deg);
+    }
+}
+@media (max-width: 400px) {
+    li .shoe1 {
+        width: 220px;
+        margin-top: 70px;
+        margin-left: -135px;
+    }
+}
+li:nth-child(1) {
+    transform: rotate(360deg);
+}
+li:nth-child(2) {
+    transform: rotate(-360deg);
+}
+li .shoe2 {
+    float: right;
+    width: 250px;
+    margin-top: -160px;
+    margin-right: 15px;
+    z-index: 1;
+    animation: li 8s linear infinite;
+}
+@keyframes li
+{
+  30% {
+      transform: rotate(-360deg); 
+    }
+}
+@media (max-width: 400px) {
+    li .shoe2 {
+        width: 220px;
+        margin-top: 70px;
+        margin-left: -135px;
+    }
+}
+
+
+
+
+.new .tag {
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Potta One', cursive;
+    margin-top: 140px;
+}
